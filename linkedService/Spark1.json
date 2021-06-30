@@ -1,0 +1,17 @@
+{
+	"name": "Spark1",
+	"properties": {
+		"description": "test spark onprem cluster",
+		"annotations": [],
+		"type": "Spark",
+		"typeProperties": {
+			"host": "8.8.8.8",
+			"port": 443,
+			"serverType": "SharkServer2",
+			"thriftTransportProtocol": "Binary",
+			"authenticationType": "Anonymous",
+			"password": false,
+			"enableSsl": false
+		}
+	}
+}
